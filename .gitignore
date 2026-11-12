@@ -1,0 +1,19 @@
+# Do not publish the assignment data or base-model weights
+data/
+candidate_pack/
+training_assessment.zip
+*.zip
+train*.jsonl
+dev*.jsonl
+test_inputs.jsonl
+clean/
+ckpt/
+checkpoints/
+*.bin
+*.pt
+.ipynb_checkpoints/
+__pycache__/
+# keep the deliverables
+!predictions_test.jsonl
+!adapter/
+!adapter/**

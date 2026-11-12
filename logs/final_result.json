@@ -1,0 +1,27 @@
+{
+ "name": "final (E4 config, this notebook)",
+ "exact_match": 0.935,
+ "mean_field_acc": 0.986875,
+ "json_valid": 1.0,
+ "fields": {
+  "category": 0.98,
+  "priority": 0.955,
+  "amount_paise": 0.995,
+  "txn_date": 0.99,
+  "txn_id": 0.995,
+  "channel": 1.0,
+  "language": 1.0,
+  "needs_human": 0.98
+ },
+ "train_minutes": 25.7,
+ "train_peak_gib": 5.9,
+ "versions": {
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.2",
+  "peft": "0.21.2",
+  "trl": "1.17.1",
+  "bitsandbytes": "0.50.2",
+  "accelerate": "1.15.0",
+  "datasets": "5.2.0"
+ }
+}
